@@ -2,7 +2,7 @@ import React from 'react'
 
 const ProjectCard = ({ project }) => {
   return (
-    <div className="flex-none w-[320px] min-w-[320px] h-[680px] overflow-hidden rounded-3xl border border-slate-200 bg-white p-6 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl">
+    <div className="w-full max-w-[340px] flex-none overflow-hidden rounded-3xl border border-slate-200 bg-white p-6 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl">
       <div className="flex h-full flex-col">
         <div className="mb-5">
           <p className="text-xs uppercase tracking-[0.4em] text-sky-600 font-semibold mb-3">Project</p>

@@ -13,7 +13,7 @@ const About = () => {
               <li className="rounded-3xl bg-slate-50 p-4">
               I am a BCA graduate (2025) and a dedicated fresher building a strong career as a Full Stack Java Developer. I work with Java, React, JavaScript, HTML, CSS, MySQL, and DSA, and I enjoy solving real problems with clean code.
             </li>
-              <li className="rounded-3xl bg-slate-50 p-4">100+ DSA problems solved to strengthen problem solving and logical thinking.</li>
+              <li className="rounded-3xl bg-slate-50 p-4">150+ DSA problems solved to strengthen problem solving and logical thinking.</li>
               <li className="rounded-3xl bg-slate-50 p-4">Hands-on experience with version control using Git and GitHub.</li>
               <li className="rounded-3xl bg-slate-50 p-4">Focused on consistency, learning, and building production-friendly UIs.</li>
             </ul>
@@ -33,7 +33,7 @@ const About = () => {
               </a>
             </div>
           </div>
-          <div className="w-130 rounded-[2rem] bg-slate-950 p-8 text-white shadow-xl ring-1 ring-white/10">
+          <div className="w-full max-w-xl rounded-[2rem] bg-slate-950 p-8 text-white shadow-xl ring-1 ring-white/10">
             <p className="text-sm uppercase tracking-[0.3em] text-sky-400 font-semibold">Career highlights</p>
             <div className="mt-6 space-y-5">
               <div className="p-5">

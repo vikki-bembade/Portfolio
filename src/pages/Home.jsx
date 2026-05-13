@@ -47,7 +47,7 @@ const Home = () => {
               </a>
             </div>
           </div>
-          <div className="w-130  rounded-[2rem] border border-slate-200 bg-white p-8 shadow-xl">
+          <div className="w-full max-w-xl rounded-[2rem] border border-slate-200 bg-white p-8 shadow-xl">
             <p className="text-sm uppercase tracking-[0.3em] text-slate-500 font-semibold">About</p>
             <h2 className="mt-4 text-3xl font-bold text-slate-900">A thoughtful full-stack developer</h2>
             <p className="mt-4 text-slate-600 leading-7">

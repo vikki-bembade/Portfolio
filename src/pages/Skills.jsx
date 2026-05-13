@@ -10,7 +10,7 @@ const Skills = () => {
         <p className="max-w-3xl mx-auto text-center text-slate-600 mb-12">
           These are the languages and tools I work with daily to build projects with clean visuals and reliable functionality.
         </p>
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4 justify-items-center">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-items-center">
           {skills.map((skill) =>
             <SkillCard key={skill.name} skill={skill} />
           )}
