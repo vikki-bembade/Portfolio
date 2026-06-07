@@ -5,11 +5,17 @@ import htmlLogo from '../assets/html.svg'
 import cssLogo from '../assets/css.svg'
 import javaLogo from '../assets/java.svg'
 import sqlLogo from '../assets/sql.svg'
+import expressLogo from '../assets/express.svg'
+import mongoLogo from '../assets/mongodb.svg'
 const skills = [
 
     {
         name: 'java',
         logo: javaLogo  
+    },
+    {
+        name: 'express',
+        logo: expressLogo  
     },
     {
         name: 'JavaScript',
@@ -30,6 +36,10 @@ const skills = [
     {
         name: 'css',
         logo: cssLogo
+    },
+    {
+        name: 'MongoDB',
+        logo: mongoLogo
     },
     {
         name: 'sql',

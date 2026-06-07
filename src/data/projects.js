@@ -3,8 +3,24 @@ import reactLogo from '../assets/react.svg'
 import htmlLogo from '../assets/html.svg'
 import todos from '../assets/todos.svg'
 import weathers from '../assets/weathers.svg'
+import rating from '../assets/rating.svg'
+import career from '../assets/career.svg'
 
 const projects = [
+    {
+        name: 'Store rating application',
+        img : rating,
+        description: 'Built a Store Rating Application using React, Node.js, Express.js, JavaScript, and Neon PostgreSQL, enabling users to rate stores and manage reviews through a responsive web interface.',
+        technologies: ['React.js', 'Tailwind CSS', 'JavaScript', 'Express.js', 'Node.js', 'Neon PostgreSQL'],
+        link: 'https://roxiler-systems-frontend-pi.vercel.app/'
+    },
+    {
+        name: 'Career App',
+        img : career,
+        description: 'Developed a responsive web application using React, Tailwind CSS, and REST APIs for dynamic data management and seamless user experience.',
+        technologies: ['React.js', 'Tailwind CSS', 'JavaScript', 'API Integration'],
+        link: 'https://career-app-blush.vercel.app/'
+    },
     {
         name: 'Joke Application using API',
         img : jokeS,
