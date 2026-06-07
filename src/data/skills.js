@@ -6,7 +6,7 @@ import cssLogo from '../assets/css.svg'
 import javaLogo from '../assets/java.svg'
 import sqlLogo from '../assets/sql.svg'
 import expressLogo from '../assets/express.svg'
-import mongoLogo from '../assets/mongodb.svg'
+import mongoLogo from '../assets/mongoDB.svg'
 const skills = [
 
     {
