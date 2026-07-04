@@ -2,12 +2,12 @@ import React from 'react'
 
 const ProjectCard = ({ project }) => {
   return (
-    <div className="w-full max-w-[340px] flex-none overflow-hidden rounded-3xl border border-slate-200 bg-white p-6 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl">
+    <div style={{ backgroundColor: 'var(--bg-secondary)', borderColor: 'var(--border-color)', color: 'var(--text-primary)' }} className="w-full max-w-[340px] flex-none overflow-hidden rounded-3xl border p-6 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl">
       <div className="flex h-full flex-col">
         <div className="mb-5">
-          <p className="text-xs uppercase tracking-[0.4em] text-sky-600 font-semibold mb-3">Project</p>
-          <h4 className="text-2xl font-semibold text-slate-900 mb-4 leading-tight">{project.name}</h4>
-          <div className="overflow-hidden rounded-3xl border border-slate-200 bg-slate-50">
+          <p style={{ color: 'var(--accent)' }} className="text-xs uppercase tracking-[0.4em] font-semibold mb-3">Project</p>
+          <h4 style={{ color: 'var(--text-primary)' }} className="text-2xl font-semibold mb-4 leading-tight">{project.name}</h4>
+          <div style={{ backgroundColor: 'var(--bg-tertiary)', borderColor: 'var(--border-color)' }} className="overflow-hidden rounded-3xl border">
             <img
               src={project.img}
               alt={project.name}
@@ -18,7 +18,7 @@ const ProjectCard = ({ project }) => {
 
         <div className="mb-5 flex flex-wrap gap-2">
           {project.technologies.map((tech, index) => (
-            <span key={index} className="rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700">
+            <span key={index} style={{ backgroundColor: 'var(--bg-tertiary)', color: 'var(--text-secondary)' }} className="rounded-full px-3 py-1 text-xs font-semibold">
               {tech}
             </span>
           ))}
@@ -30,18 +30,19 @@ const ProjectCard = ({ project }) => {
               href={project.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center rounded-2xl bg-sky-600 px-4 py-3 text-sm font-semibold text-white transition-colors duration-300 hover:bg-sky-700"
+              style={{ backgroundColor: 'var(--accent)' }}
+              className="inline-flex items-center justify-center rounded-2xl px-4 py-3 text-sm font-semibold text-white transition-opacity duration-300 hover:opacity-90"
             >
               View Project
             </a>
           ) : (
-            <span className="inline-flex items-center justify-center rounded-2xl bg-slate-200 px-4 py-3 text-sm font-semibold text-slate-600">
+            <span style={{ backgroundColor: 'var(--bg-tertiary)', color: 'var(--text-secondary)' }} className="inline-flex items-center justify-center rounded-2xl px-4 py-3 text-sm font-semibold">
               Coming Soon
             </span>
           )}
         </div>
 
-        <div className="min-h-[120px] max-h-40 overflow-y-auto rounded-3xl border border-slate-100 bg-slate-50 p-4 text-sm leading-6 text-slate-600">
+        <div style={{ backgroundColor: 'var(--bg-tertiary)', borderColor: 'var(--border-color)', color: 'var(--text-secondary)' }} className="min-h-[120px] max-h-40 overflow-y-auto rounded-3xl border p-4 text-sm leading-6">
           {project.description}
         </div>
       </div>

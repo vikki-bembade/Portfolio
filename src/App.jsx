@@ -10,7 +10,7 @@ import Header from './componant/Header'
 
 const App = () => {
   return (
-    <div className="bg-slate-50 text-slate-900 antialiased">
+    <div style={{ backgroundColor: 'var(--bg-primary)', color: 'var(--text-primary)' }} className="antialiased transition-colors duration-300">
       <Header />
       <main className="pt-20">
         <Home />

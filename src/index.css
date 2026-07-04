@@ -1,15 +1,60 @@
 @import "tailwindcss";
 
+:root {
+  /* Light Mode */
+  --bg-primary: #f8fafc;
+  --bg-secondary: #ffffff;
+  --bg-tertiary: #f1f5f9;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-tertiary: #64748b;
+  --border-color: #e2e8f0;
+  --accent: #0ea5e9;
+  --accent-hover: #0284c7;
+  --card-border: #e2e8f0;
+  --button-bg: #0f172a;
+  --button-hover: #1e293b;
+  --highlight-bg: #f0f9ff;
+}
+
+html.dark {
+  /* Dark Mode */
+  --bg-primary: #0f172a;
+  --bg-secondary: #1e293b;
+  --bg-tertiary: #334155;
+  --text-primary: #f1f5f9;
+  --text-secondary: #cbd5e1;
+  --text-tertiary: #94a3b8;
+  --border-color: #334155;
+  --accent: #06b6d4;
+  --accent-hover: #0891b2;
+  --card-border: #334155;
+  --button-bg: #0ea5e9;
+  --button-hover: #06b6d4;
+  --highlight-bg: #1e293b;
+}
+
 @layer base {
   html {
     scroll-behavior: smooth;
+    color-scheme: light;
+  }
+
+  html.dark {
+    color-scheme: dark;
   }
 
   body {
-    @apply bg-slate-50 text-slate-900 antialiased;
+    @apply antialiased transition-colors duration-300;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
   }
 
   ::selection {
     @apply bg-sky-200 text-slate-900;
+  }
+
+  html.dark ::selection {
+    @apply bg-sky-700 text-slate-50;
   }
 }
