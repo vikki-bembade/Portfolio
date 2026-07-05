@@ -57,7 +57,7 @@ const skills = [
         logo: PostgreSQL
     },
     {
-        name: 'Spring Boot',
+        name: 'SpringBoot',
         logo: SpringBOOT
     }
 ];
