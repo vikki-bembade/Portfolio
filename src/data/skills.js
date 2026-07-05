@@ -7,6 +7,9 @@ import javaLogo from '../assets/java.svg'
 import sqlLogo from '../assets/sql.svg'
 import expressLogo from '../assets/express.svg'
 import mongoLogo from '../assets/mongoDB.svg'
+import MySQL from  '../assets/MySQL.svg'
+import PostgreSQL from '../assets/PostgreSQL.svg'
+import SpringBOOT from '../assets/Springboot.svg'
 const skills = [
 
     {
@@ -45,8 +48,18 @@ const skills = [
         name: 'sql',
         logo: sqlLogo
     },
-    
-    
+    {
+        name: 'MySQL',
+        logo: MySQL
+    },
+    {
+        name: 'PostgreSQL',
+        logo: PostgreSQL
+    },
+    {
+        name: 'Spring Boot',
+        logo: SpringBOOT
+    }
 ];
 
 export default skills
