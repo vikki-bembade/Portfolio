@@ -13,8 +13,11 @@ const NavBar = () => {
         <div style={{ color: 'var(--text-secondary)' }} className="flex flex-wrap justify-center items-center gap-4 text-sm font-medium">
           <a href="#home" style={{ color: 'var(--text-secondary)' }} className="transition-all duration-200 hover:opacity-80 hover:scale-105">Home</a>
           <a href="#about" style={{ color: 'var(--text-secondary)' }} className="transition-all duration-200 hover:opacity-80 hover:scale-105">About</a>
+          <a href="#experience" style={{ color: 'var(--text-secondary)' }} className="transition-all duration-200 hover:opacity-80 hover:scale-105">Experience</a>
+          <a href="#education" style={{ color: 'var(--text-secondary)' }} className="transition-all duration-200 hover:opacity-80 hover:scale-105">Education</a>
           <a href="#skills" style={{ color: 'var(--text-secondary)' }} className="transition-all duration-200 hover:opacity-80 hover:scale-105">Skills</a>
           <a href="#projects" style={{ color: 'var(--text-secondary)' }} className="transition-all duration-200 hover:opacity-80 hover:scale-105">Projects</a>
+          <a href="#courses" style={{ color: 'var(--text-secondary)' }} className="transition-all duration-200 hover:opacity-80 hover:scale-105">Courses</a>
           <a href="#contact" style={{ color: 'var(--text-secondary)' }} className="transition-all duration-200 hover:opacity-80 hover:scale-105">Contact</a>
           <button
             onClick={toggleTheme}
